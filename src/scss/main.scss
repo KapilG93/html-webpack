@@ -1,0 +1,268 @@
+ @font-face {
+     font-family: 'Roboto';
+     src: url('../fonts/Roboto-Light.woff2') format('woff2'),
+         url('../fonts/Roboto-Light.woff') format('woff');
+     font-weight: 300;
+     font-style: normal;
+     font-display: swap;
+ }
+
+ @font-face {
+     font-family: 'Roboto';
+     src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+         url('../fonts/Roboto-Regular.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+     font-display: swap;
+ }
+
+ @font-face {
+     font-family: 'Roboto';
+     src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+         url('../fonts/Roboto-Medium.woff') format('woff');
+     font-weight: 500;
+     font-style: normal;
+     font-display: swap;
+ }
+
+ @font-face {
+     font-family: 'Font Awesome 6 Free';
+     font-style: normal;
+     font-weight: 400;
+     font-display: block;
+     src: url("../fonts/fa-regular-400.woff2") format("woff2");
+ }
+
+ .far,
+ .fa-regular {
+     font-family: 'Font Awesome 6 Free';
+     font-weight: 400;
+ }
+
+ :root,
+ :host {
+     --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+ }
+
+ @font-face {
+     font-family: 'Font Awesome 6 Free';
+     font-style: normal;
+     font-weight: 900;
+     font-display: block;
+     src: url("../fonts/fa-solid-900.woff2") format("woff2");
+ }
+
+ .fas,
+ .fa-solid {
+     font-family: 'Font Awesome 6 Free';
+     font-weight: 900;
+ }
+
+ @font-face {
+     font-family: "Font Awesome 5 Brands";
+     font-display: block;
+     font-weight: 400;
+     src: url("../fonts/fa-brands-400.woff2") format("woff2");
+ }
+
+ @font-face {
+     font-family: "Font Awesome 5 Free";
+     font-display: block;
+     font-weight: 900;
+     src: url("../fonts/fa-solid-900.woff2") format("woff2");
+ }
+
+ @font-face {
+     font-family: "Font Awesome 5 Free";
+     font-display: block;
+     font-weight: 400;
+     src: url("../fonts/fa-regular-400.woff2") format("woff2");
+ }
+
+ @font-face {
+     font-family: "FontAwesome";
+     font-display: block;
+     src: url("../fonts/fa-solid-900.woff2") format("woff2");
+ }
+
+ @font-face {
+     font-family: "FontAwesome";
+     font-display: block;
+     src: url("../fonts/fa-brands-400.woff2") format("woff2");
+ }
+
+ @font-face {
+     font-family: "FontAwesome";
+     font-display: block;
+     src: url("../fonts/fa-regular-400.woff2") format("woff2");
+     unicode-range: U+F003, U+F006, U+F014, U+F016-F017, U+F01A-F01B, U+F01D, U+F022, U+F03E, U+F044, U+F046, U+F05C-F05D, U+F06E, U+F070, U+F087-F088, U+F08A, U+F094, U+F096-F097, U+F09D, U+F0A0, U+F0A2, U+F0A4-F0A7, U+F0C5, U+F0C7, U+F0E5-F0E6, U+F0EB, U+F0F6-F0F8, U+F10C, U+F114-F115, U+F118-F11A, U+F11C-F11D, U+F133, U+F147, U+F14E, U+F150-F152, U+F185-F186, U+F18E, U+F190-F192, U+F196, U+F1C1-F1C9, U+F1D9, U+F1DB, U+F1E3, U+F1EA, U+F1F7, U+F1F9, U+F20A, U+F247-F248, U+F24A, U+F24D, U+F255-F25B, U+F25D, U+F271-F274, U+F278, U+F27B, U+F28C, U+F28E, U+F29C, U+F2B5, U+F2B7, U+F2BA, U+F2BC, U+F2BE, U+F2C0-F2C1, U+F2C3, U+F2D0, U+F2D2, U+F2D4, U+F2DC;
+ }
+
+ @font-face {
+     font-family: 'Font Awesome 6 Brands';
+     font-style: normal;
+     font-weight: 400;
+     font-display: block;
+     src: url("../fonts/fa-brands-400.woff2") format("woff2");
+ }
+
+ .fab,
+ .fa-brands {
+     font-family: 'Font Awesome 6 Brands';
+     font-weight: 400;
+ }
+
+
+ *,
+ *:before,
+ *:after {
+     box-sizing: border-box;
+ }
+
+ html {
+     overflow-x: hidden;
+ }
+
+ body {
+     margin: 0;
+     padding: 0 !important;
+     overflow-x: hidden;
+     background-color: #FFF;
+     color: var(--regent-grey);
+     font-size: var(--font-13);
+     font-family: var(--font-roboto);
+     font-weight: var(--font-normal);
+     line-height: 18px;
+ }
+
+ .container {
+     width: 100%;
+     padding-right: 15px;
+     padding-left: 15px;
+     max-width: 1200px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ h1,
+ .h1 {
+     font-size: 41px;
+     line-height: 54px;
+     @media(max-width: $laptop-sm) {
+        font-size: 36px;
+        line-height: 48px;
+     }
+     @media(max-width: $mobile-lg) {
+        font-size: 32px;
+        line-height: 42px;
+     }
+ }
+
+ h2,
+ .h2 {
+     font-size: 35px;
+     line-height: 46px;
+     @media(max-width: $laptop-sm) {
+        font-size: 30px;
+        line-height: 40px;
+     }
+     @media(max-width: $mobile-lg) {
+        font-size: 28px;
+        line-height: 38px;
+     }
+ }
+
+ h3,
+ .h3 {
+     font-size: 26px;
+     line-height: 34px;
+     @media(max-width: $laptop-sm) {
+        font-size: 24px;
+        line-height: 32px;
+     }
+ }
+
+ h4,
+ .h4 {
+     font-size: 24px;
+     line-height: 32px;
+     @media(max-width: $laptop-sm) {
+        font-size: 22px;
+        line-height: 30px;
+     }
+ }
+
+ h5,
+ .h5 {
+     font-size: 22px;
+     line-height: 30px;
+     @media(max-width: $laptop-sm) {
+        font-size: 20px;
+        line-height: 28px;
+     }
+ }
+
+ h6,
+ .h6 {
+     font-size: 18px;
+     line-height: 26px;
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ .h1,
+ .h2,
+ .h3,
+ .h4,
+ .h5,
+ .h6 {
+     margin-bottom: 25px;
+     font-family: var(--font-roboto);
+     font-weight: var(--font-light);
+     color: var(--big-stone);
+ }
+
+
+ p {
+     padding-bottom: 0;
+     margin-bottom: 20px;
+
+     &:last-child {
+         margin-bottom: 0;
+     }
+ }
+
+ a {
+     color: var(--maya-blue);
+     text-decoration: none;
+     transition: all 0.2s ease-in-out;
+
+     &:hover {
+         transition: all 0.2s ease-in-out;
+         color: var(--havelock-blue-hover);
+     }
+ }
+
+ p:empty {
+     display: none;
+ }
+
+ .full-width-layout {
+     width: 100vw;
+     margin-left: calc(-50vw + 50%);
+ }
+
+ img {
+     height: auto;
+     max-width: 100%;
+     border: none;
+     outline: none;
+ }
+
+ .main-page {
+    padding: 60px 0;
+ }

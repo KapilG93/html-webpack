@@ -1,0 +1,14 @@
+.site-btn {
+    font-size: var(--font-13);
+    font-weight: var(--font-normal);
+    font-family: var(--font-roboto);
+    padding: 7px 16px 6px 16px;
+    color: var(--big-stone);
+    margin: 0;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+    transition: 0.3s;-webkit-transition: 0.3s;-moz-transition: 0.3s;-o-transition: 0.3s;
+    &:hover {
+    }
+}

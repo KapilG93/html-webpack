@@ -1,0 +1,33 @@
+:root {
+  --font-11: 11px;
+  --font-12: 12px;
+  --font-13: 13px;
+  --font-14: 14px;
+  --font-roboto: 'Roboto';
+  --font-500: 500;
+  --font-normal: normal;
+  --font-light: 300;
+  --green: #008000;
+  --bg-Solitude: #F4F8F9;
+  --regent-grey: #7B8187;
+  --big-stone: #323C47;
+  --maya-blue: #4DA1FF;
+  --havelock-blue-hover: #4e79bd;
+  --white-cl: #FFF;
+  --gray-border: #CBD1D5;
+  --light-gray: #989898;
+}
+
+
+
+// Breakpoints
+$laptop-lg:"1580px";
+$laptop-md:"1380px";
+$laptop:"1280px";
+$laptop-sm: "1199px";
+$tablet: "1024px";
+$tablet-sm: "992px";
+$mobile-lg: "767px";
+$mobile-sm:"600px";
+$mobile-xsm:"480px";
+$mobile-xxs:"360px";
