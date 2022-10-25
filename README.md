@@ -53,3 +53,9 @@
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto">
   <pre>npm run build</pre>
 </div>
+
+<h5>Contributing</h5>
+<p>We welcome your contributions!</p>
+
+<h5>Attribution</h5>
+<p>This project is heavily inspired by Kapil Goshaliya.</p>
