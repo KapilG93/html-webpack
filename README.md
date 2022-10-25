@@ -37,11 +37,19 @@
 <p>NPM package.json scripts are a convenient and useful means to run locally installed binaries without having to be concerned about their full paths. Simply Already define a script in Package.json file</p>
 
 <p>Run the Below Command to Start the project, this command will watch your file whatever you make the changes and it will save the changes in output folder</p>
+<br/>
+
+<p>To Run the Project</p>
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto">
   <pre>npm run watch</pre>
 </div>
 
+<p>To Make the Project as Production</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto">
+  <pre>npm run production</pre>
+</div>
 
-
-# html-webpack
-HTML with Webpack, Also it can be used in others CMS and Static Project
+<p>To Make the Project as Build, as Optimization file</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto">
+  <pre>npm run build</pre>
+</div>
